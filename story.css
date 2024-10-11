@@ -1,0 +1,47 @@
+
+.timeline {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px; 
+    background-image: url(our.jpg);
+}
+
+.timeline h1{
+    color: #884040;
+}
+
+.event {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 400px; 
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.event:hover{
+    background-color: #F1D3CE;
+    transform: scale(1.08); 
+    cursor: pointer; 
+    border: 2px solid rgb(49, 49, 49);
+}
+
+.event-date {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.event-description {
+    color: #555;
+    line-height: 22px;
+}
+
+.text {
+    text-align: center; 
+    align-items: center;
+}

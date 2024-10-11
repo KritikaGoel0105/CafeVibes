@@ -1,0 +1,39 @@
+footer {
+    background-color: #3e2723; 
+    color: #fff8e1;
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+h3 {
+    color: #d7ccc8; 
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 14px;
+    line-height: 2.6;
+    color: #fff8e1;
+}
+
+a {
+    color: #ffcc80; 
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a:hover {
+    color: #ffab40; 
+}
+
+h3 a:hover{
+    color: burlywood;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #d7ccc8; 
+}
